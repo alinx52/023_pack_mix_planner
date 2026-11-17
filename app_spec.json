@@ -1,0 +1,122 @@
+{
+  "name": "pack_mix_planner",
+  "org": "com.alinxs.apps",
+  "title": "Pack Mix Planner",
+  "description": "Find a mix of available pack sizes that meets a target quantity with the least surplus.",
+  "korean_summary": "필요한 수량과 사용 가능한 포장 단위를 입력하면 초과 수량을 먼저 최소화하고 포장 개수를 다음으로 최소화하는 조합을 찾는 오프라인 도구입니다. 입력과 결과는 서버에 저장하거나 전송하지 않으며, 작업을 가리지 않는 표준 크기 AdMob 배너 하나만 표시합니다.",
+  "design_system": {
+    "style": "minimal_material",
+    "seed_color": "#496A3A",
+    "theme_mode": "system",
+    "density": "compact",
+    "corner_style": "medium",
+    "motion": "subtle"
+  },
+  "icon": {
+    "composition": "centered_safe_zone",
+    "background": "#496A3A",
+    "secondary": "stacked_packages",
+    "version": 1,
+    "foreground": "#FFFFFF",
+    "primary": "generic_utility",
+    "source": null
+  },
+  "requirements": "Build a compact English-first Flutter Android utility whose first phone viewport explains that it finds a pack-size combination meeting a required quantity and shows the Target quantity input, Pack sizes input, and one obvious Find mix action above the footer and banner. Accept a positive whole-number Target quantity and a comma-separated Pack sizes list containing from one to five unique positive whole numbers. Trim surrounding spaces, reject empty entries and duplicates, and normalize the displayed pack sizes into descending numeric order before calculation. Limit the target and every pack size to 100000. On Find mix, consider nonnegative whole counts of the entered pack sizes and select a combination by this fixed ranking: lowest total units that is at least the target, then fewest total packs, then for any remaining tie prefer more packs of the larger size in descending pack-size order. Show Best mix, one line for each used pack size in the exact form count × size = units, Total units, Target quantity, Surplus, and Total packs. Omit unused pack sizes from the result. Use an exact deterministic integer algorithm and do not use floating-point arithmetic. If no result can be calculated because of invalid input, show localized inline errors and preserve the last valid result. Reject blank, zero, negative, signed, decimal, nonnumeric, over-limit, duplicate, more-than-five-size, and malformed comma-separated inputs. Provide Reset as a secondary action and do not retain calculation history. State clearly that the planner considers quantity only and does not account for price, weight, dimensions, stock availability, substitutions, shipping, expiry, or whether a seller permits mixing pack sizes. Do not present purchasing, inventory, or cost claims and do not recommend a seller or product. Do not request storage, file, media, contacts, location, camera, microphone, notification, accessibility-service, or other sensitive permissions. Keep all quantities and results on-device for the current session, require no account or backend, and allow networking only for the existing Google Mobile Ads AdMob SDK. Preserve the generated design system and buildAppTheme integration. Provide complete ARB translations without English substitutions for en, ko, ja, zh_Hans, zh_Hant, es, fr, de, pt_BR, it, nl, ru, ar, hi, id, and vi, including RTL-safe Arabic layout. Put an immediately usable compact AppBar language menu showing the current locale code and a chevron on the first screen. Put the session-only AppAppearanceMenu immediately to the left of the in-app privacy-policy action in a bottom-centered footer directly above exactly one non-intrusive standard AdSize.banner, exposing only minimal_material, flat, and soft. The banner must never cover or displace the purpose, inputs, primary action, validation, result, limitation note, or footer. Deterministic widget tests must verify that target 26 with pack sizes 6 and 10 returns 1 × 6 = 6, 2 × 10 = 20, Total units: 26, Surplus: 0, and Total packs: 3; that target 23 with the same sizes returns 4 × 6 = 24, Total units: 24, Surplus: 1, and Total packs: 4; that target 20 with pack sizes entered as 4, 6, 10 chooses 2 × 10 = 20 over other exact combinations because it uses the fewest packs; that pack-size input order does not change the result; that blank, zero, negative, signed, decimal, nonnumeric, duplicate, malformed, too-many-size, and over-limit values show localized validation while preserving the last valid result; and that switching from English to Arabic translates labels, applies RTL layout without clipping, and preserves all entered quantities and results.",
+  "planning": {
+    "source": "codex",
+    "priority": 0,
+    "launch_scope": "global",
+    "problem": "Adults ordering or preparing a known quantity from items available only in fixed pack sizes need a quick way to choose pack counts without repeatedly testing combinations by hand.",
+    "audience": "Adult global users planning quantities for household supplies, event materials, workshop parts, or other non-regulated items from pack-size information they already have.",
+    "differentiator": "Unlike a basic calculator or the portfolio's weight, cutting, and three-dimensional fit tools, this utility performs a deterministic discrete optimization across multiple pack sizes and explains the selected counts, total, and surplus.",
+    "monetization": "One standard-size AdMob banner remains below the bottom-centered appearance and privacy footer and never covers quantity inputs, validation, the selected mix, limitations, or the primary action.",
+    "privacy": "No account, backend, server-side input storage, history, or sensitive permissions; entered quantities and calculated combinations remain on device for the current session, with AdMob advertising disclosed separately.",
+    "test_scenarios": "Widget tests cover exact and surplus examples, minimum-pack ranking, deterministic tie handling independent of input order, malformed and bounded integer validation with last-result preservation, English-to-Arabic switching, and RTL layout without clipping."
+  },
+  "deployment": {
+    "play": {
+      "default_language": "en-US",
+      "app_type": "app",
+      "pricing": "free"
+    },
+    "content": {
+      "contains_ads": true,
+      "target_audience": "adults",
+      "user_generated_content": false
+    },
+    "data_safety": {
+      "account_required": false,
+      "app_inputs_server_stored": false,
+      "third_party_sdks": [
+        "admob"
+      ]
+    },
+    "release": {
+      "launch_scope": "global",
+      "internal_test": true,
+      "production_approval_required": true,
+      "initial_production_rollout": 1.0
+    },
+    "admob_secret": "pack_mix_planner_admob",
+    "category": "Tools"
+  },
+  "store_screenshots": [
+    {
+      "id": "phone-01",
+      "description": "Clean initial state with the target quantity, available pack sizes, and primary action visible.",
+      "actions": [],
+      "expected_texts": [
+        "Pack Mix Planner",
+        "Target quantity",
+        "Pack sizes",
+        "Find mix"
+      ],
+      "forbidden_texts": [
+        "System UI isn't responding",
+        "isn't responding",
+        "DEBUG",
+        "has stopped"
+      ]
+    },
+    {
+      "id": "phone-02",
+      "description": "Find an exact combination of two available pack sizes for a concrete target quantity.",
+      "actions": [
+        {
+          "type": "input",
+          "target": "Target quantity",
+          "text": "26"
+        },
+        {
+          "type": "input",
+          "target": "Pack sizes",
+          "text": "6, 10"
+        },
+        {
+          "type": "tap",
+          "target": "Find mix"
+        },
+        {
+          "type": "wait",
+          "seconds": 2
+        }
+      ],
+      "expected_texts": [
+        "Best mix",
+        "1 × 6 = 6",
+        "2 × 10 = 20",
+        "Total units: 26",
+        "Surplus: 0",
+        "Total packs: 3"
+      ],
+      "forbidden_texts": [
+        "Enter a positive whole number",
+        "Enter one to five unique pack sizes",
+        "System UI isn't responding",
+        "isn't responding",
+        "DEBUG",
+        "has stopped"
+      ]
+    }
+  ]
+}

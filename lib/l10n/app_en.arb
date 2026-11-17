@@ -1,0 +1,13 @@
+{
+  "appTitle": "Pack Mix Planner",
+  "@appTitle": {
+    "description": "The app title shown in the system UI."
+  },
+  "appDescription": "Find a mix of available pack sizes that meets a target quantity with the least surplus.",
+  "@appDescription": {
+    "description": "The short description shown on the home page."
+  },
+  "languageEnglish": "English",
+  "languageKorean": "한국어",
+  "privacyPolicy": "Privacy policy"
+}
