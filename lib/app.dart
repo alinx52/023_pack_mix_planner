@@ -13,6 +13,25 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
+  static const _selectableLocales = <Locale>[
+    Locale('en'),
+    Locale('ko'),
+    Locale('ja'),
+    Locale.fromSubtags(languageCode: 'zh', scriptCode: 'Hans'),
+    Locale.fromSubtags(languageCode: 'zh', scriptCode: 'Hant'),
+    Locale('es'),
+    Locale('fr'),
+    Locale('de'),
+    Locale('pt', 'BR'),
+    Locale('it'),
+    Locale('nl'),
+    Locale('ru'),
+    Locale('ar'),
+    Locale('hi'),
+    Locale('id'),
+    Locale('vi'),
+  ];
+
   Locale _locale = const Locale('en');
   String _designStyle = appDesignStyle;
 
@@ -31,7 +50,7 @@ class _MyAppState extends State<MyApp> {
   }
 
   bool _isSupportedLocale(Locale locale) {
-    return AppLocalizations.supportedLocales.any(
+    return _selectableLocales.any(
       (supported) => supported.toLanguageTag() == locale.toLanguageTag(),
     );
   }
@@ -51,6 +70,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       locale: _locale,
       onGenerateTitle: (context) => AppLocalizations.of(context).appTitle,
       localizationsDelegates: AppLocalizations.localizationsDelegates,

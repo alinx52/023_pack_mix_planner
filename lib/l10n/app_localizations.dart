@@ -5,8 +5,21 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:intl/intl.dart' as intl;
 
+import 'app_localizations_ar.dart';
+import 'app_localizations_de.dart';
 import 'app_localizations_en.dart';
+import 'app_localizations_es.dart';
+import 'app_localizations_fr.dart';
+import 'app_localizations_hi.dart';
+import 'app_localizations_id.dart';
+import 'app_localizations_it.dart';
+import 'app_localizations_ja.dart';
 import 'app_localizations_ko.dart';
+import 'app_localizations_nl.dart';
+import 'app_localizations_pt.dart';
+import 'app_localizations_ru.dart';
+import 'app_localizations_vi.dart';
+import 'app_localizations_zh.dart';
 
 // ignore_for_file: type=lint
 
@@ -95,38 +108,210 @@ abstract class AppLocalizations {
   /// A list of this localizations delegate's supported locales.
   static const List<Locale> supportedLocales = <Locale>[
     Locale('en'),
+    Locale('ar'),
+    Locale('de'),
+    Locale('es'),
+    Locale('fr'),
+    Locale('hi'),
+    Locale('id'),
+    Locale('it'),
+    Locale('ja'),
     Locale('ko'),
+    Locale('nl'),
+    Locale('pt'),
+    Locale('pt', 'BR'),
+    Locale('ru'),
+    Locale('vi'),
+    Locale('zh'),
+    Locale.fromSubtags(languageCode: 'zh', scriptCode: 'Hans'),
+    Locale.fromSubtags(languageCode: 'zh', scriptCode: 'Hant'),
   ];
 
-  /// The app title shown in the system UI.
+  /// No description provided for @appTitle.
   ///
   /// In en, this message translates to:
   /// **'Pack Mix Planner'**
   String get appTitle;
 
-  /// The short description shown on the home page.
+  /// No description provided for @appDescription.
   ///
   /// In en, this message translates to:
   /// **'Find a mix of available pack sizes that meets a target quantity with the least surplus.'**
   String get appDescription;
 
-  /// No description provided for @languageEnglish.
+  /// No description provided for @languageTooltip.
   ///
   /// In en, this message translates to:
-  /// **'English'**
-  String get languageEnglish;
-
-  /// No description provided for @languageKorean.
-  ///
-  /// In en, this message translates to:
-  /// **'한국어'**
-  String get languageKorean;
+  /// **'Choose language'**
+  String get languageTooltip;
 
   /// No description provided for @privacyPolicy.
   ///
   /// In en, this message translates to:
   /// **'Privacy policy'**
   String get privacyPolicy;
+
+  /// No description provided for @appearanceTooltip.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose appearance'**
+  String get appearanceTooltip;
+
+  /// No description provided for @appearanceMaterial.
+  ///
+  /// In en, this message translates to:
+  /// **'Material'**
+  String get appearanceMaterial;
+
+  /// No description provided for @appearanceFlat.
+  ///
+  /// In en, this message translates to:
+  /// **'Flat'**
+  String get appearanceFlat;
+
+  /// No description provided for @appearanceSoft.
+  ///
+  /// In en, this message translates to:
+  /// **'Soft'**
+  String get appearanceSoft;
+
+  /// No description provided for @targetQuantityLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Target quantity'**
+  String get targetQuantityLabel;
+
+  /// No description provided for @targetQuantityHint.
+  ///
+  /// In en, this message translates to:
+  /// **'For example, 26'**
+  String get targetQuantityHint;
+
+  /// No description provided for @packSizesLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Pack sizes'**
+  String get packSizesLabel;
+
+  /// No description provided for @packSizesHint.
+  ///
+  /// In en, this message translates to:
+  /// **'For example, 6, 10'**
+  String get packSizesHint;
+
+  /// No description provided for @packSizesHelper.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter 1–5 unique sizes, separated by commas'**
+  String get packSizesHelper;
+
+  /// No description provided for @findMix.
+  ///
+  /// In en, this message translates to:
+  /// **'Find mix'**
+  String get findMix;
+
+  /// No description provided for @reset.
+  ///
+  /// In en, this message translates to:
+  /// **'Reset'**
+  String get reset;
+
+  /// No description provided for @bestMix.
+  ///
+  /// In en, this message translates to:
+  /// **'Best mix'**
+  String get bestMix;
+
+  /// No description provided for @mixLine.
+  ///
+  /// In en, this message translates to:
+  /// **'{count} × {size} = {units}'**
+  String mixLine(int count, int size, int units);
+
+  /// No description provided for @totalUnits.
+  ///
+  /// In en, this message translates to:
+  /// **'Total units: {value}'**
+  String totalUnits(int value);
+
+  /// No description provided for @targetQuantityResult.
+  ///
+  /// In en, this message translates to:
+  /// **'Target quantity: {value}'**
+  String targetQuantityResult(int value);
+
+  /// No description provided for @surplus.
+  ///
+  /// In en, this message translates to:
+  /// **'Surplus: {value}'**
+  String surplus(int value);
+
+  /// No description provided for @totalPacks.
+  ///
+  /// In en, this message translates to:
+  /// **'Total packs: {value}'**
+  String totalPacks(int value);
+
+  /// No description provided for @limitationNote.
+  ///
+  /// In en, this message translates to:
+  /// **'Quantity only. This planner does not account for price, weight, dimensions, stock, substitutions, shipping, expiry, or seller mixing rules.'**
+  String get limitationNote;
+
+  /// No description provided for @targetRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter a target quantity.'**
+  String get targetRequired;
+
+  /// No description provided for @positiveWholeNumberError.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter a positive whole number.'**
+  String get positiveWholeNumberError;
+
+  /// No description provided for @maximumValueError.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter {maximum} or less.'**
+  String maximumValueError(int maximum);
+
+  /// No description provided for @packSizesRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter one to five pack sizes.'**
+  String get packSizesRequired;
+
+  /// No description provided for @malformedPackSizesError.
+  ///
+  /// In en, this message translates to:
+  /// **'Remove empty entries between commas.'**
+  String get malformedPackSizesError;
+
+  /// No description provided for @tooManyPackSizesError.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter no more than five pack sizes.'**
+  String get tooManyPackSizesError;
+
+  /// No description provided for @positivePackSizesError.
+  ///
+  /// In en, this message translates to:
+  /// **'Use positive whole numbers for pack sizes.'**
+  String get positivePackSizesError;
+
+  /// No description provided for @maximumPackSizeError.
+  ///
+  /// In en, this message translates to:
+  /// **'Each pack size must be {maximum} or less.'**
+  String maximumPackSizeError(int maximum);
+
+  /// No description provided for @duplicatePackSizesError.
+  ///
+  /// In en, this message translates to:
+  /// **'Remove duplicate pack sizes.'**
+  String get duplicatePackSizesError;
 }
 
 class _AppLocalizationsDelegate
@@ -139,20 +324,87 @@ class _AppLocalizationsDelegate
   }
 
   @override
-  bool isSupported(Locale locale) =>
-      <String>['en', 'ko'].contains(locale.languageCode);
+  bool isSupported(Locale locale) => <String>[
+    'ar',
+    'de',
+    'en',
+    'es',
+    'fr',
+    'hi',
+    'id',
+    'it',
+    'ja',
+    'ko',
+    'nl',
+    'pt',
+    'ru',
+    'vi',
+    'zh',
+  ].contains(locale.languageCode);
 
   @override
   bool shouldReload(_AppLocalizationsDelegate old) => false;
 }
 
 AppLocalizations lookupAppLocalizations(Locale locale) {
+  // Lookup logic when language+script codes are specified.
+  switch (locale.languageCode) {
+    case 'zh':
+      {
+        switch (locale.scriptCode) {
+          case 'Hans':
+            return AppLocalizationsZhHans();
+          case 'Hant':
+            return AppLocalizationsZhHant();
+        }
+        break;
+      }
+  }
+
+  // Lookup logic when language+country codes are specified.
+  switch (locale.languageCode) {
+    case 'pt':
+      {
+        switch (locale.countryCode) {
+          case 'BR':
+            return AppLocalizationsPtBr();
+        }
+        break;
+      }
+  }
+
   // Lookup logic when only language code is specified.
   switch (locale.languageCode) {
+    case 'ar':
+      return AppLocalizationsAr();
+    case 'de':
+      return AppLocalizationsDe();
     case 'en':
       return AppLocalizationsEn();
+    case 'es':
+      return AppLocalizationsEs();
+    case 'fr':
+      return AppLocalizationsFr();
+    case 'hi':
+      return AppLocalizationsHi();
+    case 'id':
+      return AppLocalizationsId();
+    case 'it':
+      return AppLocalizationsIt();
+    case 'ja':
+      return AppLocalizationsJa();
     case 'ko':
       return AppLocalizationsKo();
+    case 'nl':
+      return AppLocalizationsNl();
+    case 'pt':
+      return AppLocalizationsPt();
+    case 'ru':
+      return AppLocalizationsRu();
+    case 'vi':
+      return AppLocalizationsVi();
+    case 'zh':
+      return AppLocalizationsZh();
   }
 
   throw FlutterError(
