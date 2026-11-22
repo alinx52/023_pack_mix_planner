@@ -312,6 +312,90 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Remove duplicate pack sizes.'**
   String get duplicatePackSizesError;
+
+  /// No description provided for @helpTooltip.
+  ///
+  /// In en, this message translates to:
+  /// **'Help & Guide'**
+  String get helpTooltip;
+
+  /// No description provided for @helpTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Pack Mix Planner Guide'**
+  String get helpTitle;
+
+  /// No description provided for @helpProblemSolvedTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Problem Solved'**
+  String get helpProblemSolvedTitle;
+
+  /// No description provided for @helpProblemSolvedContent.
+  ///
+  /// In en, this message translates to:
+  /// **'Finds the optimal combination of fixed pack sizes to satisfy a target quantity, minimizing surplus first, then minimizing total pack count offline.'**
+  String get helpProblemSolvedContent;
+
+  /// No description provided for @helpHowToUseTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'How to Use'**
+  String get helpHowToUseTitle;
+
+  /// No description provided for @helpHowToUseContent.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter the required target quantity and comma-separated available pack sizes (e.g. 50, 20, 10), then tap Find best mix.'**
+  String get helpHowToUseContent;
+
+  /// No description provided for @helpReadingResultsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Reading Results'**
+  String get helpReadingResultsTitle;
+
+  /// No description provided for @helpReadingResultsContent.
+  ///
+  /// In en, this message translates to:
+  /// **'Shows the exact count of each pack size to order, the total items delivered, surplus leftover items, and total number of packages.'**
+  String get helpReadingResultsContent;
+
+  /// No description provided for @helpExampleTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Example'**
+  String get helpExampleTitle;
+
+  /// No description provided for @helpExampleContent.
+  ///
+  /// In en, this message translates to:
+  /// **'Target: 70 units | Sizes: 25, 10\nResult: 2x pack of 25 + 2x pack of 10 = Exactly 70 units (0 surplus, 4 packs total).'**
+  String get helpExampleContent;
+
+  /// No description provided for @helpLimitsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Validation & Limitations'**
+  String get helpLimitsTitle;
+
+  /// No description provided for @helpLimitsContent.
+  ///
+  /// In en, this message translates to:
+  /// **'Integer optimization calculator only. Does not factor in supplier stock availability, minimum order values, discounts, or delivery fees.'**
+  String get helpLimitsContent;
+
+  /// No description provided for @helpDataAndPrivacyTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Local Data & Ads'**
+  String get helpDataAndPrivacyTitle;
+
+  /// No description provided for @helpDataAndPrivacyContent.
+  ///
+  /// In en, this message translates to:
+  /// **'All calculations run strictly on-device without internet communication. A standard AdMob banner is displayed at the bottom.'**
+  String get helpDataAndPrivacyContent;
 }
 
 class _AppLocalizationsDelegate

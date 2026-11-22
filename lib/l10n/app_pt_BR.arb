@@ -30,5 +30,19 @@
   "tooManyPackSizesError": "Digite no máximo cinco tamanhos de pacote.",
   "positivePackSizesError": "Use números inteiros positivos nos tamanhos.",
   "maximumPackSizeError": "Cada tamanho deve ser de no máximo {maximum}.",
-  "duplicatePackSizesError": "Remova os tamanhos de pacote repetidos."
+  "duplicatePackSizesError": "Remova os tamanhos de pacote repetidos.",
+  "helpTooltip": "Ajuda e guia",
+  "helpTitle": "Guia do Planejador de Combinação de Pacotes",
+  "helpProblemSolvedTitle": "Problema resolvido",
+  "helpProblemSolvedContent": "Encontra a melhor combinação de pacotes fixos para atingir uma quantidade alvo, minimizando sobras e o total de pacotes.",
+  "helpHowToUseTitle": "Como usar",
+  "helpHowToUseContent": "Digite a quantidade desejada e os tamanhos de pacotes separados por vírgula (ex.: 50, 20, 10) e toque em Buscar combinação.",
+  "helpReadingResultsTitle": "Leitura dos resultados",
+  "helpReadingResultsContent": "Mostra a quantidade de cada pacote a pedir, o total de itens, as unidades excedentes e o número total de pacotes.",
+  "helpExampleTitle": "Exemplo",
+  "helpExampleContent": "Meta: 70 unidades | Tamanhos: 25, 10\nResultado: 2x pacote de 25 + 2x pacote de 10 = Exatamente 70 (0 sobra, 4 pacotes).",
+  "helpLimitsTitle": "Validação e limites",
+  "helpLimitsContent": "Calculadora de otimização inteira. Não considera estoque real do fornecedor, descontos por atacado ou frete.",
+  "helpDataAndPrivacyTitle": "Dados locais e anúncios",
+  "helpDataAndPrivacyContent": "Todos os cálculos são feitos localmente no aparelho sem internet. Um banner do AdMob é exibido abaixo."
 }

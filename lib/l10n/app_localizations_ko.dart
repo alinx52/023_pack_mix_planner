@@ -116,4 +116,52 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get duplicatePackSizesError => '중복된 포장 단위를 삭제하세요.';
+
+  @override
+  String get helpTooltip => '도움말 및 안내';
+
+  @override
+  String get helpTitle => '묶음 포장 조합 플래너 안내';
+
+  @override
+  String get helpProblemSolvedTitle => '해결하는 문제';
+
+  @override
+  String get helpProblemSolvedContent =>
+      '고정된 규격의 포장 단위(예: 10개입, 25개입 등)를 조합하여 목표 수량을 맞출 때 초과 수량을 최소화하고 팩 개수를 최소화하는 최적 조합을 오프라인으로 찾습니다.';
+
+  @override
+  String get helpHowToUseTitle => '사용 방법';
+
+  @override
+  String get helpHowToUseContent =>
+      '필요한 목표 수량과 구매 가능한 팩 단위 크기들(쉼표로 구분, 예: 50, 20, 10)을 입력한 뒤 최적 조합 찾기 버튼을 누릅니다.';
+
+  @override
+  String get helpReadingResultsTitle => '결과 확인';
+
+  @override
+  String get helpReadingResultsContent =>
+      '각 팩 규격별 필요한 구매 수량, 총 공급 수량, 잉여 초과 수량, 그리고 구매할 총 팩 개수를 명확히 보여줍니다.';
+
+  @override
+  String get helpExampleTitle => '대표 예시';
+
+  @override
+  String get helpExampleContent =>
+      '목표: 70개 | 팩 단위: 25, 10\n결과: 25개입 2팩 + 10개입 2팩 = 정확히 70개 (잉여 0개, 총 4팩).';
+
+  @override
+  String get helpLimitsTitle => '검증 및 제한사항';
+
+  @override
+  String get helpLimitsContent =>
+      '정수 최적화 수학 계산기입니다. 공급업체의 실제 재고 유무, 대량 구매 할인 가격, 최소 주문 금액이나 배송비를 보증하지 않습니다.';
+
+  @override
+  String get helpDataAndPrivacyTitle => '로컬 데이터 및 광고';
+
+  @override
+  String get helpDataAndPrivacyContent =>
+      '모든 연산은 인터넷 통신 없이 기기 내부에서만 처리됩니다. 화면 하단에 Google AdMob 표준 배너 광고가 표시됩니다.';
 }

@@ -30,5 +30,19 @@
   "tooManyPackSizesError": "包裝規格不得超過五個。",
   "positivePackSizesError": "包裝規格只能使用正整數。",
   "maximumPackSizeError": "每個包裝規格不得大於{maximum}。",
-  "duplicatePackSizesError": "請刪除重複的包裝規格。"
+  "duplicatePackSizesError": "請刪除重複的包裝規格。",
+  "helpTooltip": "說明與指南",
+  "helpTitle": "包裝規格組合規劃指南",
+  "helpProblemSolvedTitle": "解決的問題",
+  "helpProblemSolvedContent": "離線計算滿足目標數量時的固定包裝規格組合，優先將超量多買的數額降至最低，其次將總包裝件數最小化。",
+  "helpHowToUseTitle": "使用方法",
+  "helpHowToUseContent": "輸入目標需求數量以及以逗號分隔的可選包裝規格（如 50, 20, 10），接著點擊「尋找最佳組合」。",
+  "helpReadingResultsTitle": "查看結果",
+  "helpReadingResultsContent": "清楚列出各包裝規格需採購的件數、總供應數量、超額多出數量及採購的總包裝件數。",
+  "helpExampleTitle": "範例",
+  "helpExampleContent": "目標: 70件 | 可選規格: 25, 10\n結果: 2盒25件裝 + 2盒10件裝 = 正好70件 (超額 0件，共 4盒)。",
+  "helpLimitsTitle": "驗證與限制",
+  "helpLimitsContent": "整數規劃數學演算工具。不考慮廠商即時庫存量、批量採購折扣、最低訂購限制或物流費用。",
+  "helpDataAndPrivacyTitle": "本機資料與廣告",
+  "helpDataAndPrivacyContent": "所有計算均在裝置本機離線執行，無網路傳輸。螢幕下方顯示標準Google AdMob橫幅廣告。"
 }

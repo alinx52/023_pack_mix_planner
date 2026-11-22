@@ -30,5 +30,19 @@
   "tooManyPackSizesError": "Voer maximaal vijf verpakkingsgroottes in.",
   "positivePackSizesError": "Gebruik positieve gehele getallen voor groottes.",
   "maximumPackSizeError": "Elke grootte mag maximaal {maximum} zijn.",
-  "duplicatePackSizesError": "Verwijder dubbele verpakkingsgroottes."
+  "duplicatePackSizesError": "Verwijder dubbele verpakkingsgroottes.",
+  "helpTooltip": "Hulp en gids",
+  "helpTitle": "Gids voor verpakkingsmix",
+  "helpProblemSolvedTitle": "Opgelost probleem",
+  "helpProblemSolvedContent": "Vindt de optimale combinatie van vaste verpakkingsgroottes voor een doelhoeveelheid met minimaal overschot en minimale doosaantallen.",
+  "helpHowToUseTitle": "Gebruiksaanwijzing",
+  "helpHowToUseContent": "Voer de gewenste hoeveelheid en beschikbare verpakkingsgroottes in (bijv. 50, 20, 10) en tik op Zoeken.",
+  "helpReadingResultsTitle": "Resultaten aflezen",
+  "helpReadingResultsContent": "Toont het aantal van elke verpakkingsgrootte, de totale geleverde hoeveelheid, overtollige stuks en het aantal dozen.",
+  "helpExampleTitle": "Voorbeeld",
+  "helpExampleContent": "Doel: 70 stuks | Groottes: 25, 10\nResultaat: 2x pak van 25 + 2x pak van 10 = Exact 70 stuks (0 overschot, 4 pakken totaal).",
+  "helpLimitsTitle": "Validatie & Beperkingen",
+  "helpLimitsContent": "Gehele-getallenoptimalisatie. Houdt geen rekening met werkelijke voorraden, staffelkortingen of verzendkosten.",
+  "helpDataAndPrivacyTitle": "Lokale gegevens & Advertenties",
+  "helpDataAndPrivacyContent": "Alle berekeningen worden lokaal uitgevoerd zonder internetverbinding. Onderaan staat een standaard AdMob-banner."
 }

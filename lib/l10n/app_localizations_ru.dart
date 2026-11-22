@@ -121,4 +121,52 @@ class AppLocalizationsRu extends AppLocalizations {
   @override
   String get duplicatePackSizesError =>
       'Удалите повторяющиеся размеры упаковок.';
+
+  @override
+  String get helpTooltip => 'Справка и руководство';
+
+  @override
+  String get helpTitle => 'Руководство по комбинациям упаковок';
+
+  @override
+  String get helpProblemSolvedTitle => 'Решаемая задача';
+
+  @override
+  String get helpProblemSolvedContent =>
+      'Находит оптимальную комбинацию фиксированных упаковок для заданного количества, минимизируя излишек и число коробок.';
+
+  @override
+  String get helpHowToUseTitle => 'Как использовать';
+
+  @override
+  String get helpHowToUseContent =>
+      'Введите требуемое количество и доступные размеры упаковок через запятую (напр. 50, 20, 10), затем нажмите «Найти комбинацию».';
+
+  @override
+  String get helpReadingResultsTitle => 'Чтение результатов';
+
+  @override
+  String get helpReadingResultsContent =>
+      'Показывает точное количество упаковок каждого размера, общее число штук, излишек и общее количество коробок.';
+
+  @override
+  String get helpExampleTitle => 'Пример';
+
+  @override
+  String get helpExampleContent =>
+      'Цель: 70 шт | Размеры: 25, 10\nРезультат: 2 уп по 25 + 2 уп по 10 = Ровно 70 шт (0 излишка, всего 4 упаковки).';
+
+  @override
+  String get helpLimitsTitle => 'Проверка и ограничения';
+
+  @override
+  String get helpLimitsContent =>
+      'Инструмент целочисленной оптимизации. Не учитывает фактическое наличие на складе поставщика, скидки за объем и доставку.';
+
+  @override
+  String get helpDataAndPrivacyTitle => 'Локальные данные и реклама';
+
+  @override
+  String get helpDataAndPrivacyContent =>
+      'Все вычисления выполняются локально на устройстве без интернета. Внизу экрана отображается стандартный баннер AdMob.';
 }

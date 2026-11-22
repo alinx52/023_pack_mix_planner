@@ -119,4 +119,52 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get duplicatePackSizesError => 'Xóa các kích cỡ gói trùng nhau.';
+
+  @override
+  String get helpTooltip => 'Trợ giúp & Hướng dẫn';
+
+  @override
+  String get helpTitle => 'Hướng dẫn lập kế hoạch kết hợp gói';
+
+  @override
+  String get helpProblemSolvedTitle => 'Vấn đề giải quyết';
+
+  @override
+  String get helpProblemSolvedContent =>
+      'Tìm sự kết hợp tối ưu giữa các cỡ gói cố định để đáp ứng số lượng mục tiêu, giảm thiểu số dư thừa và số lượng gói.';
+
+  @override
+  String get helpHowToUseTitle => 'Cách sử dụng';
+
+  @override
+  String get helpHowToUseContent =>
+      'Nhập số lượng mục tiêu cần thiết và các kích cỡ gói có sẵn cách nhau bằng dấu phẩy (ví dụ 50, 20, 10), sau đó nhấn Tìm kết hợp tốt nhất.';
+
+  @override
+  String get helpReadingResultsTitle => 'Đọc kết quả';
+
+  @override
+  String get helpReadingResultsContent =>
+      'Hiển thị số lượng chính xác của từng cỡ gói cần đặt, tổng số mặt hàng, số lượng dư thừa và tổng số gói hàng.';
+
+  @override
+  String get helpExampleTitle => 'Ví dụ';
+
+  @override
+  String get helpExampleContent =>
+      'Mục tiêu: 70 đơn vị | Cỡ: 25, 10\nKết quả: 2x gói 25 + 2x gói 10 = Đúng 70 đơn vị (dư 0, tổng cộng 4 gói).';
+
+  @override
+  String get helpLimitsTitle => 'Xác thực & Giới hạn';
+
+  @override
+  String get helpLimitsContent =>
+      'Chỉ là công cụ tối ưu hóa số nguyên. Không tính đến lượng hàng tồn kho thực tế, giảm giá số lượng lớn hoặc phí giao hàng.';
+
+  @override
+  String get helpDataAndPrivacyTitle => 'Dữ liệu cục bộ & Quảng cáo';
+
+  @override
+  String get helpDataAndPrivacyContent =>
+      'Tất cả các phép tính chạy hoàn toàn trên thiết bị mà không cần internet. Biểu ngữ AdMob hiển thị ở dưới cùng.';
 }

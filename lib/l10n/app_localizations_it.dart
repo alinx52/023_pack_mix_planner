@@ -120,4 +120,52 @@ class AppLocalizationsIt extends AppLocalizations {
 
   @override
   String get duplicatePackSizesError => 'Rimuovi le dimensioni duplicate.';
+
+  @override
+  String get helpTooltip => 'Guida e aiuto';
+
+  @override
+  String get helpTitle => 'Guida alla combinazione confezioni';
+
+  @override
+  String get helpProblemSolvedTitle => 'Problema risolto';
+
+  @override
+  String get helpProblemSolvedContent =>
+      'Trova la combinazione ottimale di confezioni fisse per raggiungere la quantità target, riducendo le eccedenze e il numero di pacchi.';
+
+  @override
+  String get helpHowToUseTitle => 'Come usare';
+
+  @override
+  String get helpHowToUseContent =>
+      'Inserisci la quantità desiderata e i formati disponibili separati da virgola (es. 50, 20, 10), quindi tocca Trova combinazione.';
+
+  @override
+  String get helpReadingResultsTitle => 'Lettura dei risultati';
+
+  @override
+  String get helpReadingResultsContent =>
+      'Mostra il numero esatto di confezioni per formato, la quantità totale fornita, le unità eccedenti e il totale dei colli.';
+
+  @override
+  String get helpExampleTitle => 'Esempio';
+
+  @override
+  String get helpExampleContent =>
+      'Target: 70 unità | Formati: 25, 10\nRisultato: 2x confezioni da 25 + 2x da 10 = Esattamente 70 (0 eccedenza, 4 confezioni).';
+
+  @override
+  String get helpLimitsTitle => 'Validazione e limitazioni';
+
+  @override
+  String get helpLimitsContent =>
+      'Calcolatore di ottimizzazione matematica. Non tiene conto di giacenze reali dei fornitori, sconti quantità o costi di spedizione.';
+
+  @override
+  String get helpDataAndPrivacyTitle => 'Dati locali e annunci';
+
+  @override
+  String get helpDataAndPrivacyContent =>
+      'Tutti i calcoli avvengono localmente sul dispositivo senza connessione internet. È visibile un banner AdMob standard.';
 }

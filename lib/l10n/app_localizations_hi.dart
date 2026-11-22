@@ -119,4 +119,52 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get duplicatePackSizesError => 'दोहराए गए पैक आकार हटाएँ।';
+
+  @override
+  String get helpTooltip => 'सहायता और मार्गदर्शिका';
+
+  @override
+  String get helpTitle => 'पैक मिक्स प्लानर मार्गदर्शिका';
+
+  @override
+  String get helpProblemSolvedTitle => 'समस्या का समाधान';
+
+  @override
+  String get helpProblemSolvedContent =>
+      'अधिशेष को कम करते हुए और पैक की संख्या को कम करते हुए एक लक्ष्य मात्रा को पूरा करने के लिए पैक आकारों के संयोजन की गणना करता है।';
+
+  @override
+  String get helpHowToUseTitle => 'उपयोग कैसे करें';
+
+  @override
+  String get helpHowToUseContent =>
+      'आवश्यक लक्ष्य मात्रा और अल्पविराम से अलग किए गए पैक आकार (उदा. 50, 20, 10) दर्ज करें, फिर सर्वश्रेष्ठ संयोजन खोजें दबाएं।';
+
+  @override
+  String get helpReadingResultsTitle => 'परिणाम कैसे समझें';
+
+  @override
+  String get helpReadingResultsContent =>
+      'ऑर्डर करने के लिए प्रत्येक पैक आकार की सटीक संख्या, डिलीवर की गई कुल वस्तुएं, अतिरिक्त वस्तुएं और कुल पैकेज दिखाता है।';
+
+  @override
+  String get helpExampleTitle => 'उदाहरण';
+
+  @override
+  String get helpExampleContent =>
+      'लक्ष्य: 70 इकाइयां | आकार: 25, 10\nपरिणाम: 2x 25 का पैक + 2x 10 का पैक = ठीक 70 इकाइयां (0 अतिरिक्त, 4 पैक)।';
+
+  @override
+  String get helpLimitsTitle => 'सत्यापन और सीमाएं';
+
+  @override
+  String get helpLimitsContent =>
+      'पूर्णांक अनुकूलन कैलकुलेटर है। आपूर्तिकर्ता स्टॉक, न्यूनतम ऑर्डर या शिपिंग शुल्क को ध्यान में नहीं रखता है।';
+
+  @override
+  String get helpDataAndPrivacyTitle => 'स्थानीय डेटा और विज्ञापन';
+
+  @override
+  String get helpDataAndPrivacyContent =>
+      'सभी गणनाएँ बिना इंटरनेट संचार के डिवाइस पर की जाती हैं। नीचे एक मानक AdMob बैनर दिखाया गया है।';
 }

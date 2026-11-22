@@ -30,5 +30,19 @@
   "tooManyPackSizesError": "包装规格不得超过五个。",
   "positivePackSizesError": "包装规格只能使用正整数。",
   "maximumPackSizeError": "每个包装规格不得大于{maximum}。",
-  "duplicatePackSizesError": "请删除重复的包装规格。"
+  "duplicatePackSizesError": "请删除重复的包装规格。",
+  "helpTooltip": "帮助与指南",
+  "helpTitle": "包装规格组合规划指南",
+  "helpProblemSolvedTitle": "解决的问题",
+  "helpProblemSolvedContent": "离线计算满足目标需求数量时的固定包装规格组合，优先将多余超额数量降至最低，其次将总包装件数降至最少。",
+  "helpHowToUseTitle": "使用方法",
+  "helpHowToUseContent": "输入目标所需数量以及用逗号分隔的可选包装规格（如 50, 20, 10），然后点击“查找最佳组合”。",
+  "helpReadingResultsTitle": "查看结果",
+  "helpReadingResultsContent": "显示每种包装规格需采购的件数、最终交付的总数量、超额多余数量以及总包装盒数。",
+  "helpExampleTitle": "示例",
+  "helpExampleContent": "目标: 70件 | 可选规格: 25, 10\n结果: 2盒25件装 + 2盒10件装 = 正好70件 (超额 0件，共 4盒)。",
+  "helpLimitsTitle": "验证与限制",
+  "helpLimitsContent": "整数规划数学算法工具。不考虑供应商实际即时库存、批量折扣价格、起订量限制或运费等商业变数。",
+  "helpDataAndPrivacyTitle": "本地数据与广告",
+  "helpDataAndPrivacyContent": "所有计算均在本地离线执行，无网络数据上传。屏幕下方展示标准Google AdMob横幅广告。"
 }

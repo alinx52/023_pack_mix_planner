@@ -123,4 +123,52 @@ class AppLocalizationsEs extends AppLocalizations {
   @override
   String get duplicatePackSizesError =>
       'Elimina los tamaños de paquete duplicados.';
+
+  @override
+  String get helpTooltip => 'Ayuda y guía';
+
+  @override
+  String get helpTitle => 'Guía del planificador de mezcla de paquetes';
+
+  @override
+  String get helpProblemSolvedTitle => 'Problema que resuelve';
+
+  @override
+  String get helpProblemSolvedContent =>
+      'Encuentra la combinación óptima de paquetes fijos para alcanzar una cantidad objetivo, minimizando el sobrante y el número de paquetes.';
+
+  @override
+  String get helpHowToUseTitle => 'Cómo usar';
+
+  @override
+  String get helpHowToUseContent =>
+      'Introduce la cantidad deseada y los tamaños de paquete disponibles separados por comas (ej. 50, 20, 10), y pulsa Buscar combinación.';
+
+  @override
+  String get helpReadingResultsTitle => 'Interpretación de resultados';
+
+  @override
+  String get helpReadingResultsContent =>
+      'Muestra el desglose de paquetes por tamaño, cantidad total suministrada, unidades sobrantes y número total de bultos.';
+
+  @override
+  String get helpExampleTitle => 'Ejemplo';
+
+  @override
+  String get helpExampleContent =>
+      'Objetivo: 70 unidades | Tamaños: 25, 10\nResultado: 2x paquete de 25 + 2x paquete de 10 = Exactamente 70 (0 sobrante, 4 paquetes).';
+
+  @override
+  String get helpLimitsTitle => 'Validaciones y límites';
+
+  @override
+  String get helpLimitsContent =>
+      'Calculadora de optimización de enteros. No contempla stock real del proveedor, descuentos por volumen ni gastos de envío.';
+
+  @override
+  String get helpDataAndPrivacyTitle => 'Datos locales y anuncios';
+
+  @override
+  String get helpDataAndPrivacyContent =>
+      'Todos los cálculos se realizan localmente sin comunicación por internet. Se muestra un banner estándar de AdMob.';
 }

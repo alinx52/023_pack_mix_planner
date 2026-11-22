@@ -121,4 +121,52 @@ class AppLocalizationsNl extends AppLocalizations {
   @override
   String get duplicatePackSizesError =>
       'Verwijder dubbele verpakkingsgroottes.';
+
+  @override
+  String get helpTooltip => 'Hulp en gids';
+
+  @override
+  String get helpTitle => 'Gids voor verpakkingsmix';
+
+  @override
+  String get helpProblemSolvedTitle => 'Opgelost probleem';
+
+  @override
+  String get helpProblemSolvedContent =>
+      'Vindt de optimale combinatie van vaste verpakkingsgroottes voor een doelhoeveelheid met minimaal overschot en minimale doosaantallen.';
+
+  @override
+  String get helpHowToUseTitle => 'Gebruiksaanwijzing';
+
+  @override
+  String get helpHowToUseContent =>
+      'Voer de gewenste hoeveelheid en beschikbare verpakkingsgroottes in (bijv. 50, 20, 10) en tik op Zoeken.';
+
+  @override
+  String get helpReadingResultsTitle => 'Resultaten aflezen';
+
+  @override
+  String get helpReadingResultsContent =>
+      'Toont het aantal van elke verpakkingsgrootte, de totale geleverde hoeveelheid, overtollige stuks en het aantal dozen.';
+
+  @override
+  String get helpExampleTitle => 'Voorbeeld';
+
+  @override
+  String get helpExampleContent =>
+      'Doel: 70 stuks | Groottes: 25, 10\nResultaat: 2x pak van 25 + 2x pak van 10 = Exact 70 stuks (0 overschot, 4 pakken totaal).';
+
+  @override
+  String get helpLimitsTitle => 'Validatie & Beperkingen';
+
+  @override
+  String get helpLimitsContent =>
+      'Gehele-getallenoptimalisatie. Houdt geen rekening met werkelijke voorraden, staffelkortingen of verzendkosten.';
+
+  @override
+  String get helpDataAndPrivacyTitle => 'Lokale gegevens & Advertenties';
+
+  @override
+  String get helpDataAndPrivacyContent =>
+      'Alle berekeningen worden lokaal uitgevoerd zonder internetverbinding. Onderaan staat een standaard AdMob-banner.';
 }

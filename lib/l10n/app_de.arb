@@ -30,5 +30,19 @@
   "tooManyPackSizesError": "Geben Sie höchstens fünf Packungsgrößen ein.",
   "positivePackSizesError": "Verwenden Sie positive ganze Zahlen für Packungsgrößen.",
   "maximumPackSizeError": "Jede Packungsgröße darf höchstens {maximum} sein.",
-  "duplicatePackSizesError": "Entfernen Sie doppelte Packungsgrößen."
+  "duplicatePackSizesError": "Entfernen Sie doppelte Packungsgrößen.",
+  "helpTooltip": "Hilfe & Anleitung",
+  "helpTitle": "Packungsgrößen-Kombinations-Leitfaden",
+  "helpProblemSolvedTitle": "Gelöstes Problem",
+  "helpProblemSolvedContent": "Ermittelt offline die optimale Kombination fester Packungsgrößen für eine Zielmenge bei minimalem Überhang und minimaler Packungszahl.",
+  "helpHowToUseTitle": "Bedienung",
+  "helpHowToUseContent": "Geben Sie die Zielmenge und Packungsgrößen kommagetrennt ein (z.B. 50, 20, 10) und tippen Sie auf Kombination finden.",
+  "helpReadingResultsTitle": "Ergebnisse verstehen",
+  "helpReadingResultsContent": "Zeigt die Anzahl jeder Packungsgröße, die gelieferte Gesamtmenge, überzählige Einheiten und die Gesamtzahl der Pakete.",
+  "helpExampleTitle": "Beispiel",
+  "helpExampleContent": "Ziel: 70 Stück | Größen: 25, 10\nErgebnis: 2x 25er + 2x 10er = Exakt 70 Stück (0 Überhang, 4 Packungen gesamt).",
+  "helpLimitsTitle": "Validierung & Grenzen",
+  "helpLimitsContent": "Reines mathematisches Optimierungstool. Berücksichtigt weder Lieferantenbestände noch Mengenrabatte oder Versandkosten.",
+  "helpDataAndPrivacyTitle": "Lokale Daten & Werbung",
+  "helpDataAndPrivacyContent": "Alle Berechnungen laufen lokal auf dem Gerät ohne Internetkommunikation. Unten wird ein AdMob-Banner angezeigt."
 }

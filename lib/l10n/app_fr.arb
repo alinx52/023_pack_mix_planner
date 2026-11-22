@@ -30,5 +30,19 @@
   "tooManyPackSizesError": "Saisissez au maximum cinq tailles de lots.",
   "positivePackSizesError": "Utilisez des entiers positifs pour les tailles.",
   "maximumPackSizeError": "Chaque taille doit être inférieure ou égale à {maximum}.",
-  "duplicatePackSizesError": "Supprimez les tailles de lots en double."
+  "duplicatePackSizesError": "Supprimez les tailles de lots en double.",
+  "helpTooltip": "Aide et guide",
+  "helpTitle": "Guide du planificateur de lots d'emballage",
+  "helpProblemSolvedTitle": "Problème résolu",
+  "helpProblemSolvedContent": "Trouve la combinaison optimale de formats de paquets fixes pour une quantité cible, en minimisant le surplus puis le nombre de paquets.",
+  "helpHowToUseTitle": "Mode d'emploi",
+  "helpHowToUseContent": "Entrez la quantité requise et les tailles de paquets séparées par des virgules (ex. 50, 20, 10), puis appuyez sur Trouver.",
+  "helpReadingResultsTitle": "Lecture des résultats",
+  "helpReadingResultsContent": "Affiche le nombre de paquets par format, la quantité totale fournie, le surplus d'unités et le total de colis.",
+  "helpExampleTitle": "Exemple",
+  "helpExampleContent": "Cible : 70 unités | Formats : 25, 10\nRésultat : 2x paquets de 25 + 2x paquets de 10 = Exactement 70 (0 surplus, 4 paquets au total).",
+  "helpLimitsTitle": "Validations et limites",
+  "helpLimitsContent": "Calculateur d'optimisation en nombres entiers. Ne tient pas compte des stocks réels, remises commerciales ou frais de port.",
+  "helpDataAndPrivacyTitle": "Données locales et publicités",
+  "helpDataAndPrivacyContent": "Tous les calculs sont effectués localement sans internet. Une bannière AdMob standard est affichée en bas."
 }

@@ -30,5 +30,19 @@
   "tooManyPackSizesError": "Masukkan paling banyak lima ukuran kemasan.",
   "positivePackSizesError": "Gunakan bilangan bulat positif untuk ukuran kemasan.",
   "maximumPackSizeError": "Setiap ukuran kemasan harus {maximum} atau kurang.",
-  "duplicatePackSizesError": "Hapus ukuran kemasan yang sama."
+  "duplicatePackSizesError": "Hapus ukuran kemasan yang sama.",
+  "helpTooltip": "Bantuan & Panduan",
+  "helpTitle": "Panduan Perencana Kombinasi Kemasan",
+  "helpProblemSolvedTitle": "Masalah yang Diatasi",
+  "helpProblemSolvedContent": "Menemukan kombinasi ukuran kemasan tetap yang optimal untuk memenuhi target jumlah, meminimalkan kelebihan dan jumlah kemasan.",
+  "helpHowToUseTitle": "Cara Penggunaan",
+  "helpHowToUseContent": "Masukkan jumlah yang dibutuhkan dan ukuran kemasan yang tersedia dipisahkan tanda koma (mis. 50, 20, 10), lalu ketuk Cari kombinasi.",
+  "helpReadingResultsTitle": "Membaca Hasil",
+  "helpReadingResultsContent": "Menampilkan jumlah setiap ukuran kemasan yang harus dibeli, total barang, kelebihan barang, dan total kemasan.",
+  "helpExampleTitle": "Contoh",
+  "helpExampleContent": "Target: 70 unit | Ukuran: 25, 10\nHasil: 2x isi 25 + 2x isi 10 = Tepat 70 unit (0 kelebihan, total 4 kemasan).",
+  "helpLimitsTitle": "Validasi & Batasan",
+  "helpLimitsContent": "Kalkulator optimasi bilangan bulat. Tidak memperhitungkan stok riil pemasok, diskon grosir, atau ongkos kirim.",
+  "helpDataAndPrivacyTitle": "Data Lokal & Iklan",
+  "helpDataAndPrivacyContent": "Semua perhitungan berjalan secara lokal tanpa komunikasi internet. Spanduk AdMob ditampilkan di bawah."
 }

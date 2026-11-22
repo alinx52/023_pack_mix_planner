@@ -115,6 +115,54 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get duplicatePackSizesError => '请删除重复的包装规格。';
+
+  @override
+  String get helpTooltip => '帮助与指南';
+
+  @override
+  String get helpTitle => '包装规格组合规划指南';
+
+  @override
+  String get helpProblemSolvedTitle => '解决的问题';
+
+  @override
+  String get helpProblemSolvedContent =>
+      '离线计算满足目标需求数量时的固定包装规格组合，优先将多余超额数量降至最低，其次将总包装件数降至最少。';
+
+  @override
+  String get helpHowToUseTitle => '使用方法';
+
+  @override
+  String get helpHowToUseContent =>
+      '输入目标所需数量以及用逗号分隔的可选包装规格（如 50, 20, 10），然后点击“查找最佳组合”。';
+
+  @override
+  String get helpReadingResultsTitle => '查看结果';
+
+  @override
+  String get helpReadingResultsContent =>
+      '显示每种包装规格需采购的件数、最终交付的总数量、超额多余数量以及总包装盒数。';
+
+  @override
+  String get helpExampleTitle => '示例';
+
+  @override
+  String get helpExampleContent =>
+      '目标: 70件 | 可选规格: 25, 10\n结果: 2盒25件装 + 2盒10件装 = 正好70件 (超额 0件，共 4盒)。';
+
+  @override
+  String get helpLimitsTitle => '验证与限制';
+
+  @override
+  String get helpLimitsContent =>
+      '整数规划数学算法工具。不考虑供应商实际即时库存、批量折扣价格、起订量限制或运费等商业变数。';
+
+  @override
+  String get helpDataAndPrivacyTitle => '本地数据与广告';
+
+  @override
+  String get helpDataAndPrivacyContent =>
+      '所有计算均在本地离线执行，无网络数据上传。屏幕下方展示标准Google AdMob横幅广告。';
 }
 
 /// The translations for Chinese, using the Han script (`zh_Hans`).
@@ -227,6 +275,54 @@ class AppLocalizationsZhHans extends AppLocalizationsZh {
 
   @override
   String get duplicatePackSizesError => '请删除重复的包装规格。';
+
+  @override
+  String get helpTooltip => '帮助与指南';
+
+  @override
+  String get helpTitle => '包装规格组合规划指南';
+
+  @override
+  String get helpProblemSolvedTitle => '解决的问题';
+
+  @override
+  String get helpProblemSolvedContent =>
+      '离线计算满足目标需求数量时的固定包装规格组合，优先将多余超额数量降至最低，其次将总包装件数降至最少。';
+
+  @override
+  String get helpHowToUseTitle => '使用方法';
+
+  @override
+  String get helpHowToUseContent =>
+      '输入目标所需数量以及用逗号分隔的可选包装规格（如 50, 20, 10），然后点击“查找最佳组合”。';
+
+  @override
+  String get helpReadingResultsTitle => '查看结果';
+
+  @override
+  String get helpReadingResultsContent =>
+      '显示每种包装规格需采购的件数、最终交付的总数量、超额多余数量以及总包装盒数。';
+
+  @override
+  String get helpExampleTitle => '示例';
+
+  @override
+  String get helpExampleContent =>
+      '目标: 70件 | 可选规格: 25, 10\n结果: 2盒25件装 + 2盒10件装 = 正好70件 (超额 0件，共 4盒)。';
+
+  @override
+  String get helpLimitsTitle => '验证与限制';
+
+  @override
+  String get helpLimitsContent =>
+      '整数规划数学算法工具。不考虑供应商实际即时库存、批量折扣价格、起订量限制或运费等商业变数。';
+
+  @override
+  String get helpDataAndPrivacyTitle => '本地数据与广告';
+
+  @override
+  String get helpDataAndPrivacyContent =>
+      '所有计算均在本地离线执行，无网络数据上传。屏幕下方展示标准Google AdMob横幅广告。';
 }
 
 /// The translations for Chinese, using the Han script (`zh_Hant`).
@@ -339,4 +435,51 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get duplicatePackSizesError => '請刪除重複的包裝規格。';
+
+  @override
+  String get helpTooltip => '說明與指南';
+
+  @override
+  String get helpTitle => '包裝規格組合規劃指南';
+
+  @override
+  String get helpProblemSolvedTitle => '解決的問題';
+
+  @override
+  String get helpProblemSolvedContent =>
+      '離線計算滿足目標數量時的固定包裝規格組合，優先將超量多買的數額降至最低，其次將總包裝件數最小化。';
+
+  @override
+  String get helpHowToUseTitle => '使用方法';
+
+  @override
+  String get helpHowToUseContent =>
+      '輸入目標需求數量以及以逗號分隔的可選包裝規格（如 50, 20, 10），接著點擊「尋找最佳組合」。';
+
+  @override
+  String get helpReadingResultsTitle => '查看結果';
+
+  @override
+  String get helpReadingResultsContent =>
+      '清楚列出各包裝規格需採購的件數、總供應數量、超額多出數量及採購的總包裝件數。';
+
+  @override
+  String get helpExampleTitle => '範例';
+
+  @override
+  String get helpExampleContent =>
+      '目標: 70件 | 可選規格: 25, 10\n結果: 2盒25件裝 + 2盒10件裝 = 正好70件 (超額 0件，共 4盒)。';
+
+  @override
+  String get helpLimitsTitle => '驗證與限制';
+
+  @override
+  String get helpLimitsContent => '整數規劃數學演算工具。不考慮廠商即時庫存量、批量採購折扣、最低訂購限制或物流費用。';
+
+  @override
+  String get helpDataAndPrivacyTitle => '本機資料與廣告';
+
+  @override
+  String get helpDataAndPrivacyContent =>
+      '所有計算均在裝置本機離線執行，無網路傳輸。螢幕下方顯示標準Google AdMob橫幅廣告。';
 }

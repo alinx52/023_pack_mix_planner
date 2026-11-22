@@ -119,4 +119,52 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get duplicatePackSizesError => 'Hapus ukuran kemasan yang sama.';
+
+  @override
+  String get helpTooltip => 'Bantuan & Panduan';
+
+  @override
+  String get helpTitle => 'Panduan Perencana Kombinasi Kemasan';
+
+  @override
+  String get helpProblemSolvedTitle => 'Masalah yang Diatasi';
+
+  @override
+  String get helpProblemSolvedContent =>
+      'Menemukan kombinasi ukuran kemasan tetap yang optimal untuk memenuhi target jumlah, meminimalkan kelebihan dan jumlah kemasan.';
+
+  @override
+  String get helpHowToUseTitle => 'Cara Penggunaan';
+
+  @override
+  String get helpHowToUseContent =>
+      'Masukkan jumlah yang dibutuhkan dan ukuran kemasan yang tersedia dipisahkan tanda koma (mis. 50, 20, 10), lalu ketuk Cari kombinasi.';
+
+  @override
+  String get helpReadingResultsTitle => 'Membaca Hasil';
+
+  @override
+  String get helpReadingResultsContent =>
+      'Menampilkan jumlah setiap ukuran kemasan yang harus dibeli, total barang, kelebihan barang, dan total kemasan.';
+
+  @override
+  String get helpExampleTitle => 'Contoh';
+
+  @override
+  String get helpExampleContent =>
+      'Target: 70 unit | Ukuran: 25, 10\nHasil: 2x isi 25 + 2x isi 10 = Tepat 70 unit (0 kelebihan, total 4 kemasan).';
+
+  @override
+  String get helpLimitsTitle => 'Validasi & Batasan';
+
+  @override
+  String get helpLimitsContent =>
+      'Kalkulator optimasi bilangan bulat. Tidak memperhitungkan stok riil pemasok, diskon grosir, atau ongkos kirim.';
+
+  @override
+  String get helpDataAndPrivacyTitle => 'Data Lokal & Iklan';
+
+  @override
+  String get helpDataAndPrivacyContent =>
+      'Semua perhitungan berjalan secara lokal tanpa komunikasi internet. Spanduk AdMob ditampilkan di bawah.';
 }

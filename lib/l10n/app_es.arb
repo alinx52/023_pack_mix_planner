@@ -30,5 +30,19 @@
   "tooManyPackSizesError": "Introduce como máximo cinco tamaños de paquete.",
   "positivePackSizesError": "Usa números enteros positivos para los tamaños.",
   "maximumPackSizeError": "Cada tamaño debe ser de {maximum} o menos.",
-  "duplicatePackSizesError": "Elimina los tamaños de paquete duplicados."
+  "duplicatePackSizesError": "Elimina los tamaños de paquete duplicados.",
+  "helpTooltip": "Ayuda y guía",
+  "helpTitle": "Guía del planificador de mezcla de paquetes",
+  "helpProblemSolvedTitle": "Problema que resuelve",
+  "helpProblemSolvedContent": "Encuentra la combinación óptima de paquetes fijos para alcanzar una cantidad objetivo, minimizando el sobrante y el número de paquetes.",
+  "helpHowToUseTitle": "Cómo usar",
+  "helpHowToUseContent": "Introduce la cantidad deseada y los tamaños de paquete disponibles separados por comas (ej. 50, 20, 10), y pulsa Buscar combinación.",
+  "helpReadingResultsTitle": "Interpretación de resultados",
+  "helpReadingResultsContent": "Muestra el desglose de paquetes por tamaño, cantidad total suministrada, unidades sobrantes y número total de bultos.",
+  "helpExampleTitle": "Ejemplo",
+  "helpExampleContent": "Objetivo: 70 unidades | Tamaños: 25, 10\nResultado: 2x paquete de 25 + 2x paquete de 10 = Exactamente 70 (0 sobrante, 4 paquetes).",
+  "helpLimitsTitle": "Validaciones y límites",
+  "helpLimitsContent": "Calculadora de optimización de enteros. No contempla stock real del proveedor, descuentos por volumen ni gastos de envío.",
+  "helpDataAndPrivacyTitle": "Datos locales y anuncios",
+  "helpDataAndPrivacyContent": "Todos los cálculos se realizan localmente sin comunicación por internet. Se muestra un banner estándar de AdMob."
 }

@@ -123,4 +123,52 @@ class AppLocalizationsDe extends AppLocalizations {
   @override
   String get duplicatePackSizesError =>
       'Entfernen Sie doppelte Packungsgrößen.';
+
+  @override
+  String get helpTooltip => 'Hilfe & Anleitung';
+
+  @override
+  String get helpTitle => 'Packungsgrößen-Kombinations-Leitfaden';
+
+  @override
+  String get helpProblemSolvedTitle => 'Gelöstes Problem';
+
+  @override
+  String get helpProblemSolvedContent =>
+      'Ermittelt offline die optimale Kombination fester Packungsgrößen für eine Zielmenge bei minimalem Überhang und minimaler Packungszahl.';
+
+  @override
+  String get helpHowToUseTitle => 'Bedienung';
+
+  @override
+  String get helpHowToUseContent =>
+      'Geben Sie die Zielmenge und Packungsgrößen kommagetrennt ein (z.B. 50, 20, 10) und tippen Sie auf Kombination finden.';
+
+  @override
+  String get helpReadingResultsTitle => 'Ergebnisse verstehen';
+
+  @override
+  String get helpReadingResultsContent =>
+      'Zeigt die Anzahl jeder Packungsgröße, die gelieferte Gesamtmenge, überzählige Einheiten und die Gesamtzahl der Pakete.';
+
+  @override
+  String get helpExampleTitle => 'Beispiel';
+
+  @override
+  String get helpExampleContent =>
+      'Ziel: 70 Stück | Größen: 25, 10\nErgebnis: 2x 25er + 2x 10er = Exakt 70 Stück (0 Überhang, 4 Packungen gesamt).';
+
+  @override
+  String get helpLimitsTitle => 'Validierung & Grenzen';
+
+  @override
+  String get helpLimitsContent =>
+      'Reines mathematisches Optimierungstool. Berücksichtigt weder Lieferantenbestände noch Mengenrabatte oder Versandkosten.';
+
+  @override
+  String get helpDataAndPrivacyTitle => 'Lokale Daten & Werbung';
+
+  @override
+  String get helpDataAndPrivacyContent =>
+      'Alle Berechnungen laufen lokal auf dem Gerät ohne Internetkommunikation. Unten wird ein AdMob-Banner angezeigt.';
 }

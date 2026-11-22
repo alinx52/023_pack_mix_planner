@@ -30,5 +30,19 @@
   "tooManyPackSizesError": "Không nhập quá năm kích cỡ gói.",
   "positivePackSizesError": "Chỉ dùng số nguyên dương cho kích cỡ gói.",
   "maximumPackSizeError": "Mỗi kích cỡ gói phải từ {maximum} trở xuống.",
-  "duplicatePackSizesError": "Xóa các kích cỡ gói trùng nhau."
+  "duplicatePackSizesError": "Xóa các kích cỡ gói trùng nhau.",
+  "helpTooltip": "Trợ giúp & Hướng dẫn",
+  "helpTitle": "Hướng dẫn lập kế hoạch kết hợp gói",
+  "helpProblemSolvedTitle": "Vấn đề giải quyết",
+  "helpProblemSolvedContent": "Tìm sự kết hợp tối ưu giữa các cỡ gói cố định để đáp ứng số lượng mục tiêu, giảm thiểu số dư thừa và số lượng gói.",
+  "helpHowToUseTitle": "Cách sử dụng",
+  "helpHowToUseContent": "Nhập số lượng mục tiêu cần thiết và các kích cỡ gói có sẵn cách nhau bằng dấu phẩy (ví dụ 50, 20, 10), sau đó nhấn Tìm kết hợp tốt nhất.",
+  "helpReadingResultsTitle": "Đọc kết quả",
+  "helpReadingResultsContent": "Hiển thị số lượng chính xác của từng cỡ gói cần đặt, tổng số mặt hàng, số lượng dư thừa và tổng số gói hàng.",
+  "helpExampleTitle": "Ví dụ",
+  "helpExampleContent": "Mục tiêu: 70 đơn vị | Cỡ: 25, 10\nKết quả: 2x gói 25 + 2x gói 10 = Đúng 70 đơn vị (dư 0, tổng cộng 4 gói).",
+  "helpLimitsTitle": "Xác thực & Giới hạn",
+  "helpLimitsContent": "Chỉ là công cụ tối ưu hóa số nguyên. Không tính đến lượng hàng tồn kho thực tế, giảm giá số lượng lớn hoặc phí giao hàng.",
+  "helpDataAndPrivacyTitle": "Dữ liệu cục bộ & Quảng cáo",
+  "helpDataAndPrivacyContent": "Tất cả các phép tính chạy hoàn toàn trên thiết bị mà không cần internet. Biểu ngữ AdMob hiển thị ở dưới cùng."
 }

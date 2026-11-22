@@ -122,4 +122,52 @@ class AppLocalizationsFr extends AppLocalizations {
   @override
   String get duplicatePackSizesError =>
       'Supprimez les tailles de lots en double.';
+
+  @override
+  String get helpTooltip => 'Aide et guide';
+
+  @override
+  String get helpTitle => 'Guide du planificateur de lots d\'emballage';
+
+  @override
+  String get helpProblemSolvedTitle => 'Problème résolu';
+
+  @override
+  String get helpProblemSolvedContent =>
+      'Trouve la combinaison optimale de formats de paquets fixes pour une quantité cible, en minimisant le surplus puis le nombre de paquets.';
+
+  @override
+  String get helpHowToUseTitle => 'Mode d\'emploi';
+
+  @override
+  String get helpHowToUseContent =>
+      'Entrez la quantité requise et les tailles de paquets séparées par des virgules (ex. 50, 20, 10), puis appuyez sur Trouver.';
+
+  @override
+  String get helpReadingResultsTitle => 'Lecture des résultats';
+
+  @override
+  String get helpReadingResultsContent =>
+      'Affiche le nombre de paquets par format, la quantité totale fournie, le surplus d\'unités et le total de colis.';
+
+  @override
+  String get helpExampleTitle => 'Exemple';
+
+  @override
+  String get helpExampleContent =>
+      'Cible : 70 unités | Formats : 25, 10\nRésultat : 2x paquets de 25 + 2x paquets de 10 = Exactement 70 (0 surplus, 4 paquets au total).';
+
+  @override
+  String get helpLimitsTitle => 'Validations et limites';
+
+  @override
+  String get helpLimitsContent =>
+      'Calculateur d\'optimisation en nombres entiers. Ne tient pas compte des stocks réels, remises commerciales ou frais de port.';
+
+  @override
+  String get helpDataAndPrivacyTitle => 'Données locales et publicités';
+
+  @override
+  String get helpDataAndPrivacyContent =>
+      'Tous les calculs sont effectués localement sans internet. Une bannière AdMob standard est affichée en bas.';
 }

@@ -30,5 +30,19 @@
   "tooManyPackSizesError": "Inserisci al massimo cinque dimensioni.",
   "positivePackSizesError": "Usa numeri interi positivi per le dimensioni.",
   "maximumPackSizeError": "Ogni dimensione deve essere al massimo {maximum}.",
-  "duplicatePackSizesError": "Rimuovi le dimensioni duplicate."
+  "duplicatePackSizesError": "Rimuovi le dimensioni duplicate.",
+  "helpTooltip": "Guida e aiuto",
+  "helpTitle": "Guida alla combinazione confezioni",
+  "helpProblemSolvedTitle": "Problema risolto",
+  "helpProblemSolvedContent": "Trova la combinazione ottimale di confezioni fisse per raggiungere la quantità target, riducendo le eccedenze e il numero di pacchi.",
+  "helpHowToUseTitle": "Come usare",
+  "helpHowToUseContent": "Inserisci la quantità desiderata e i formati disponibili separati da virgola (es. 50, 20, 10), quindi tocca Trova combinazione.",
+  "helpReadingResultsTitle": "Lettura dei risultati",
+  "helpReadingResultsContent": "Mostra il numero esatto di confezioni per formato, la quantità totale fornita, le unità eccedenti e il totale dei colli.",
+  "helpExampleTitle": "Esempio",
+  "helpExampleContent": "Target: 70 unità | Formati: 25, 10\nRisultato: 2x confezioni da 25 + 2x da 10 = Esattamente 70 (0 eccedenza, 4 confezioni).",
+  "helpLimitsTitle": "Validazione e limitazioni",
+  "helpLimitsContent": "Calcolatore di ottimizzazione matematica. Non tiene conto di giacenze reali dei fornitori, sconti quantità o costi di spedizione.",
+  "helpDataAndPrivacyTitle": "Dati locali e annunci",
+  "helpDataAndPrivacyContent": "Tutti i calcoli avvengono localmente sul dispositivo senza connessione internet. È visibile un banner AdMob standard."
 }

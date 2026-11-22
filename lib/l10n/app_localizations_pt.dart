@@ -122,6 +122,54 @@ class AppLocalizationsPt extends AppLocalizations {
   @override
   String get duplicatePackSizesError =>
       'Remova os tamanhos de pacote repetidos.';
+
+  @override
+  String get helpTooltip => 'Ajuda e guia';
+
+  @override
+  String get helpTitle => 'Guia do Planejador de Combinação de Pacotes';
+
+  @override
+  String get helpProblemSolvedTitle => 'Problema resolvido';
+
+  @override
+  String get helpProblemSolvedContent =>
+      'Encontra a melhor combinação de pacotes fixos para atingir uma quantidade alvo, minimizando sobras e o total de pacotes.';
+
+  @override
+  String get helpHowToUseTitle => 'Como usar';
+
+  @override
+  String get helpHowToUseContent =>
+      'Digite a quantidade desejada e os tamanhos de pacotes separados por vírgula (ex.: 50, 20, 10) e toque em Buscar combinação.';
+
+  @override
+  String get helpReadingResultsTitle => 'Leitura dos resultados';
+
+  @override
+  String get helpReadingResultsContent =>
+      'Mostra a quantidade de cada pacote a pedir, o total de itens, as unidades excedentes e o número total de pacotes.';
+
+  @override
+  String get helpExampleTitle => 'Exemplo';
+
+  @override
+  String get helpExampleContent =>
+      'Meta: 70 unidades | Tamanhos: 25, 10\nResultado: 2x pacote de 25 + 2x pacote de 10 = Exatamente 70 (0 sobra, 4 pacotes).';
+
+  @override
+  String get helpLimitsTitle => 'Validação e limites';
+
+  @override
+  String get helpLimitsContent =>
+      'Calculadora de otimização inteira. Não considera estoque real do fornecedor, descontos por atacado ou frete.';
+
+  @override
+  String get helpDataAndPrivacyTitle => 'Dados locais e anúncios';
+
+  @override
+  String get helpDataAndPrivacyContent =>
+      'Todos os cálculos são feitos localmente no aparelho sem internet. Um banner do AdMob é exibido abaixo.';
 }
 
 /// The translations for Portuguese, as used in Brazil (`pt_BR`).
@@ -241,4 +289,52 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
   @override
   String get duplicatePackSizesError =>
       'Remova os tamanhos de pacote repetidos.';
+
+  @override
+  String get helpTooltip => 'Ajuda e guia';
+
+  @override
+  String get helpTitle => 'Guia do Planejador de Combinação de Pacotes';
+
+  @override
+  String get helpProblemSolvedTitle => 'Problema resolvido';
+
+  @override
+  String get helpProblemSolvedContent =>
+      'Encontra a melhor combinação de pacotes fixos para atingir uma quantidade alvo, minimizando sobras e o total de pacotes.';
+
+  @override
+  String get helpHowToUseTitle => 'Como usar';
+
+  @override
+  String get helpHowToUseContent =>
+      'Digite a quantidade desejada e os tamanhos de pacotes separados por vírgula (ex.: 50, 20, 10) e toque em Buscar combinação.';
+
+  @override
+  String get helpReadingResultsTitle => 'Leitura dos resultados';
+
+  @override
+  String get helpReadingResultsContent =>
+      'Mostra a quantidade de cada pacote a pedir, o total de itens, as unidades excedentes e o número total de pacotes.';
+
+  @override
+  String get helpExampleTitle => 'Exemplo';
+
+  @override
+  String get helpExampleContent =>
+      'Meta: 70 unidades | Tamanhos: 25, 10\nResultado: 2x pacote de 25 + 2x pacote de 10 = Exatamente 70 (0 sobra, 4 pacotes).';
+
+  @override
+  String get helpLimitsTitle => 'Validação e limites';
+
+  @override
+  String get helpLimitsContent =>
+      'Calculadora de otimização inteira. Não considera estoque real do fornecedor, descontos por atacado ou frete.';
+
+  @override
+  String get helpDataAndPrivacyTitle => 'Dados locais e anúncios';
+
+  @override
+  String get helpDataAndPrivacyContent =>
+      'Todos os cálculos são feitos localmente no aparelho sem internet. Um banner do AdMob é exibido abaixo.';
 }

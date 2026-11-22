@@ -116,4 +116,52 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get duplicatePackSizesError => '重複するパックサイズを削除してください。';
+
+  @override
+  String get helpTooltip => 'ヘルプと使い方';
+
+  @override
+  String get helpTitle => 'パッケージ組合せプランナーガイド';
+
+  @override
+  String get helpProblemSolvedTitle => '解決する課題';
+
+  @override
+  String get helpProblemSolvedContent =>
+      '決められた入り数のパッケージ（10個入り、25個入りなど）を組み合わせて目標数量を満たす際、余りを最小化し、次に箱数を最小化する最適組合せを計算します。';
+
+  @override
+  String get helpHowToUseTitle => '使用方法';
+
+  @override
+  String get helpHowToUseContent =>
+      '必要な目標数量と、購入可能なパッケージ入り数（カンマ区切り、例: 50, 20, 10）を入力し、「最適組合せを検索」をタップします。';
+
+  @override
+  String get helpReadingResultsTitle => '結果の見方';
+
+  @override
+  String get helpReadingResultsContent =>
+      '各パッケージの必要箱数、合計数量、余剰数量、および購入する総パッケージ数がわかりやすく表示されます。';
+
+  @override
+  String get helpExampleTitle => '具体例';
+
+  @override
+  String get helpExampleContent =>
+      '目標: 70個 | パッケージ: 25, 10\n結果: 25個入り 2箱 + 10個入り 2箱 = ぴったり70個 (余剰 0個、合計 4箱)。';
+
+  @override
+  String get helpLimitsTitle => '検証と制限事項';
+
+  @override
+  String get helpLimitsContent =>
+      '整数最適化に基づく計算ツールです。販売店の実際の在庫状況、まとめ買い割引価格、送料や最小注文条件を保証するものではありません。';
+
+  @override
+  String get helpDataAndPrivacyTitle => 'ローカルデータと広告';
+
+  @override
+  String get helpDataAndPrivacyContent =>
+      'すべての計算は外部通信なしで端末内でのみ処理されます。画面下部に標準AdMobバ너が表示されます。';
 }

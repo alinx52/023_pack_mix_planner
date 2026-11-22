@@ -118,4 +118,52 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get duplicatePackSizesError => 'Remove duplicate pack sizes.';
+
+  @override
+  String get helpTooltip => 'Help & Guide';
+
+  @override
+  String get helpTitle => 'Pack Mix Planner Guide';
+
+  @override
+  String get helpProblemSolvedTitle => 'Problem Solved';
+
+  @override
+  String get helpProblemSolvedContent =>
+      'Finds the optimal combination of fixed pack sizes to satisfy a target quantity, minimizing surplus first, then minimizing total pack count offline.';
+
+  @override
+  String get helpHowToUseTitle => 'How to Use';
+
+  @override
+  String get helpHowToUseContent =>
+      'Enter the required target quantity and comma-separated available pack sizes (e.g. 50, 20, 10), then tap Find best mix.';
+
+  @override
+  String get helpReadingResultsTitle => 'Reading Results';
+
+  @override
+  String get helpReadingResultsContent =>
+      'Shows the exact count of each pack size to order, the total items delivered, surplus leftover items, and total number of packages.';
+
+  @override
+  String get helpExampleTitle => 'Example';
+
+  @override
+  String get helpExampleContent =>
+      'Target: 70 units | Sizes: 25, 10\nResult: 2x pack of 25 + 2x pack of 10 = Exactly 70 units (0 surplus, 4 packs total).';
+
+  @override
+  String get helpLimitsTitle => 'Validation & Limitations';
+
+  @override
+  String get helpLimitsContent =>
+      'Integer optimization calculator only. Does not factor in supplier stock availability, minimum order values, discounts, or delivery fees.';
+
+  @override
+  String get helpDataAndPrivacyTitle => 'Local Data & Ads';
+
+  @override
+  String get helpDataAndPrivacyContent =>
+      'All calculations run strictly on-device without internet communication. A standard AdMob banner is displayed at the bottom.';
 }

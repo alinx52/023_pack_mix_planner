@@ -17,25 +17,87 @@
   "reset": "Reset",
   "bestMix": "Best mix",
   "mixLine": "{count} × {size} = {units}",
-  "@mixLine": {"placeholders": {"count": {"type": "int"}, "size": {"type": "int"}, "units": {"type": "int"}}},
+  "@mixLine": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "size": {
+        "type": "int"
+      },
+      "units": {
+        "type": "int"
+      }
+    }
+  },
   "totalUnits": "Total units: {value}",
   "targetQuantityResult": "Target quantity: {value}",
   "surplus": "Surplus: {value}",
   "totalPacks": "Total packs: {value}",
-  "@totalUnits": {"placeholders": {"value": {"type": "int"}}},
-  "@targetQuantityResult": {"placeholders": {"value": {"type": "int"}}},
-  "@surplus": {"placeholders": {"value": {"type": "int"}}},
-  "@totalPacks": {"placeholders": {"value": {"type": "int"}}},
+  "@totalUnits": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "@targetQuantityResult": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "@surplus": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "@totalPacks": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
   "limitationNote": "Quantity only. This planner does not account for price, weight, dimensions, stock, substitutions, shipping, expiry, or seller mixing rules.",
   "targetRequired": "Enter a target quantity.",
   "positiveWholeNumberError": "Enter a positive whole number.",
   "maximumValueError": "Enter {maximum} or less.",
-  "@maximumValueError": {"placeholders": {"maximum": {"type": "int"}}},
+  "@maximumValueError": {
+    "placeholders": {
+      "maximum": {
+        "type": "int"
+      }
+    }
+  },
   "packSizesRequired": "Enter one to five pack sizes.",
   "malformedPackSizesError": "Remove empty entries between commas.",
   "tooManyPackSizesError": "Enter no more than five pack sizes.",
   "positivePackSizesError": "Use positive whole numbers for pack sizes.",
   "maximumPackSizeError": "Each pack size must be {maximum} or less.",
-  "@maximumPackSizeError": {"placeholders": {"maximum": {"type": "int"}}},
-  "duplicatePackSizesError": "Remove duplicate pack sizes."
+  "@maximumPackSizeError": {
+    "placeholders": {
+      "maximum": {
+        "type": "int"
+      }
+    }
+  },
+  "duplicatePackSizesError": "Remove duplicate pack sizes.",
+  "helpTooltip": "Help & Guide",
+  "helpTitle": "Pack Mix Planner Guide",
+  "helpProblemSolvedTitle": "Problem Solved",
+  "helpProblemSolvedContent": "Finds the optimal combination of fixed pack sizes to satisfy a target quantity, minimizing surplus first, then minimizing total pack count offline.",
+  "helpHowToUseTitle": "How to Use",
+  "helpHowToUseContent": "Enter the required target quantity and comma-separated available pack sizes (e.g. 50, 20, 10), then tap Find best mix.",
+  "helpReadingResultsTitle": "Reading Results",
+  "helpReadingResultsContent": "Shows the exact count of each pack size to order, the total items delivered, surplus leftover items, and total number of packages.",
+  "helpExampleTitle": "Example",
+  "helpExampleContent": "Target: 70 units | Sizes: 25, 10\nResult: 2x pack of 25 + 2x pack of 10 = Exactly 70 units (0 surplus, 4 packs total).",
+  "helpLimitsTitle": "Validation & Limitations",
+  "helpLimitsContent": "Integer optimization calculator only. Does not factor in supplier stock availability, minimum order values, discounts, or delivery fees.",
+  "helpDataAndPrivacyTitle": "Local Data & Ads",
+  "helpDataAndPrivacyContent": "All calculations run strictly on-device without internet communication. A standard AdMob banner is displayed at the bottom."
 }

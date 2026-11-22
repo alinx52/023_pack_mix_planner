@@ -119,4 +119,52 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get duplicatePackSizesError => 'احذف أحجام العبوات المكررة.';
+
+  @override
+  String get helpTooltip => 'المساعدة والدليل';
+
+  @override
+  String get helpTitle => 'دليل تخطيط تشكيلات الطرود';
+
+  @override
+  String get helpProblemSolvedTitle => 'المشكلة التي يعالجها';
+
+  @override
+  String get helpProblemSolvedContent =>
+      'يجد أفضل تركيبة من أحجام الطرود الثابتة للوصول إلى الكمية المستهدفة مع تقليل الفائض أولاً ثم تقليل إجمالي عدد الطرود.';
+
+  @override
+  String get helpHowToUseTitle => 'طريقة الاستخدام';
+
+  @override
+  String get helpHowToUseContent =>
+      'أدخل الكمية المطلوبة وأحجام العبوات المتاحة مفصولة بفواصل (مثل 50, 20, 10)، ثم اضغط إيجاد أفضل تشكيلة.';
+
+  @override
+  String get helpReadingResultsTitle => 'قراءة النتائج';
+
+  @override
+  String get helpReadingResultsContent =>
+      'يعرض عدد الطرود المطلوب من كل حجم، وإجمالي الوحدات المستلمة، والوحدات الفائضة، وإجمالي عدد الطرود.';
+
+  @override
+  String get helpExampleTitle => 'مثال توضيحي';
+
+  @override
+  String get helpExampleContent =>
+      'الهدف: 70 وحدة | الأحجام: 25، 10\nالنتيجة: عبوتان من 25 + عبوتان من 10 = 70 وحدة تمامًا (بدون فائض، 4 عبوات إجمالاً).';
+
+  @override
+  String get helpLimitsTitle => 'التحقق والقيود';
+
+  @override
+  String get helpLimitsContent =>
+      'حاسبة تحسين رياضية للأعداد الصحيحة فقط. لا تراعي توفر المخزون الفعلي لدى المورد أو خصومات الشراء أو رسوم التوصيل.';
+
+  @override
+  String get helpDataAndPrivacyTitle => 'البيانات المحلية والإعلانات';
+
+  @override
+  String get helpDataAndPrivacyContent =>
+      'تتم جميع الحسابات محليًا دون أي اتصال بالإنترنت. يظهر شريط إعلاني قياسي من AdMob أسفل الشاشة.';
 }
